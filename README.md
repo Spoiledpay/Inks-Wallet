@@ -1,5 +1,5 @@
 <div align="center">
-<img width="2048" height="2048" alt="inkslogo" src="https://github.com/user-attachments/assets/86a4dfd3-c147-4495-8a87-9b775d6751a3" />
+<img width="1024" height="254" alt="Github" src="https://github.com/user-attachments/assets/dbf2c877-3cdc-48ee-a17a-4a4ab366f1c1" />
 </div>
 
 # Inks Blockchain
