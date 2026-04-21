@@ -23,7 +23,7 @@ A **Inks Blockchain** é uma blockchain independente e funcional construída do 
 ### Gerenciamento de Carteira (Wallet)
 * **Padrão Mnemônico (BIP39):** Geração de carteiras a partir de uma frase de recuperação de 12 palavras.
 * **Endereçamento:** Formato compatível com o padrão Ethereum (prefixo `0x` seguido por 40 caracteres hexadecimais).
-* **Persistência:** Armazenamento seguro das chaves e metadados no banco de dados local (`inks.db`).
+* **Persistência:** Armazenamento seguro das chaves e metadados no banco de dados local.
 
 ## 📁 Estrutura do Projeto
 
