@@ -4,8 +4,6 @@
 
 # Inks Blockchain
 
-A **Inks Blockchain** é uma blockchain independente e funcional construída do zero em Go, fortemente inspirada nos princípios do Ethereum. Ela opera como uma rede descentralizada P2P, utilizando o algoritmo de consenso Proof-of-Work (PoW).
-
 A **Inks Blockchain** é uma blockchain independente e funcional construída do zero em Go, fortemente inspirada nos princípios do Ethereum. Ela opera como uma rede descentralizada P2P, utilizando o algoritmo de consenso Proof-of-Work (PoW) para validação e segurança da rede.
 
 ## 🚀 Principais Funcionalidades
