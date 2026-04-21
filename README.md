@@ -4,8 +4,7 @@
 
 # Inks Blockchain
 
-A **Inks Blockchain** é uma blockchain independente e funcional construída do zero em Go, fortemente inspirada nos princípios do Ethereum[cite: 8, 71]. [cite_start]Ela opera como uma rede descentralizada P2P, utilizando o algoritmo de consenso Proof-of-Work (PoW).
-
+A **Inks Blockchain** é uma blockchain independente e funcional construída do zero em Go, fortemente inspirada nos princípios do Ethereum. Ela opera como uma rede descentralizada P2P, utilizando o algoritmo de consenso Proof-of-Work (PoW).
 
 A **Inks Blockchain** é uma blockchain independente e funcional construída do zero em Go, fortemente inspirada nos princípios do Ethereum. Ela opera como uma rede descentralizada P2P, utilizando o algoritmo de consenso Proof-of-Work (PoW) para validação e segurança da rede.
 
@@ -44,45 +43,37 @@ inks-blockchain/
 │   └── utils/          # Funções auxiliares e utilitários
 ├── go.mod              # Definição de módulos Go
 └── go.sum              # Checksums de dependências
+
 🛠️ Compilação
 Para gerar o executável inks.exe, você deve ter o Go instalado em seu sistema:
 
-Bash
 # Baixar dependências
 go mod tidy
 
 # Compilar o binário
 go build -o inks.exe ./cmd/inks
 Para uma versão otimizada e reduzida:
-
-Bash
+// Ferramenta Interna.
 go build -ldflags="-s -w" -o inks.exe ./cmd/inks
+
 💻 Comandos Principais (CLI)
 O programa pode ser utilizado via comandos diretos ou em modo interativo (REPL).
 
-Gestão do Nó
+## Gestão do Nó
 inks.exe init: Inicializa o diretório de dados, cria a carteira padrão e o genesis.json.
-
 inks.exe start: Inicia o nó e conecta-se aos pares conhecidos.
-
 inks.exe start --mine: Inicia o nó e ativa a mineração competitiva.
-
 inks.exe status: Mostra o estado atual da sincronização e altura da cadeia.
 
-Gestão de Carteiras
+## Gestão de Carteiras
 inks.exe wallet create --name <nome>: Cria uma nova carteira.
-
 inks.exe wallet balance: Consulta o saldo da carteira ativa.
-
 inks.exe wallet list: Lista todas as carteiras locais.
-
 inks.exe wallet import --seed "<frase>": Restaura uma carteira existente.
 
-Operações de Rede
+## Operações de Rede
 inks.exe tx send --to <endereço> --amount <valor>: Envia INKS para outro usuário.
-
 inks.exe mine: Minera um único bloco manualmente (útil para testes).
-
 inks.exe peers: Lista os nós conectados no momento.
 
 🧪 Teste de Sincronização (Multi-Node)
